@@ -10,7 +10,7 @@ struct Task {
     bool completed;
 };
 
-// Functon declare
+// Functon declaration
 void addTask(vector<Task> &tasks);
 void viewTasks(const vector<Task> &tasks);
 void markTaskCompleted(vector<Task> &tasks);
